@@ -26,7 +26,6 @@ public class SQSService {
             SQSConnection connection = sqsConnectionFactory.createConnection();
 
             makeQueue(connection, queueName);
-//            makeFifoQueue(connection, queueName);
 
             session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
             Queue queue = session.createQueue(queueName);
