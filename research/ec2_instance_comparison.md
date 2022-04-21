@@ -13,20 +13,20 @@ from: https://www.learnaws.org/2020/12/19/t3-t3a-t4g/
 - 이 워크로드는 일반적으로 낮은 CPU 사용성을 보이며, 가끔 특정 주기에 높은 CPU 사용을 수행한다. 이것을 bustable라고 한다. 
 - T3 인스턴스 패밀리는 이런 패턴을 보이는 워크로드에 잘 맞으며, 비용 면에서 효과적이다. 
 
-![T3](https://www.learnaws.org/assets/img/comparing-t3-t3a-t4g/t3-instance-specs.png)
+![T3](imgs/t3-instance-specs.png)
 
 ### T3a 인스턴스 
 
 - T3, T3a 인스턴스들은 서로 매우 유사하지만 프로세서 면에서는 다르다. 
 - T3 인스턴스들은 Skylake 프로세서이며 T3a 인스턴스들은 AMD EPYC 7000 시리즈 프로세스를 이용한다. 
 
-![T3a](https://www.learnaws.org/assets/img/comparing-t3-t3a-t4g/t3a-instance-specs.png)
+![T3a](imgs/t3a-instance-specs.png)
 
 ### T4g 인스턴스 
 
 - T4g 인스턴스들은 Arm 기반의 AWS Graviton2 프로세서에 의해서 성능을 발휘한다. 이들은 더 낳은 가격과 성능을 지원한다. 
 
-![T4g](https://www.learnaws.org/assets/img/comparing-t3-t3a-t4g/t4g-instance-specs.png)
+![T4g](imgs/t4g-instance-specs.png)
 
 ## 성능 
 
