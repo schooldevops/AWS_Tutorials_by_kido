@@ -1,0 +1,4 @@
+- https://aws.amazon.com/ko/blogs/compute/operating-lambda-performance-optimization-part-1/
+- https://aws.amazon.com/ko/blogs/compute/operating-lambda-performance-optimization-part-2/
+- https://aws.amazon.com/ko/blogs/compute/operating-lambda-performance-optimization-part-3/
+- 
